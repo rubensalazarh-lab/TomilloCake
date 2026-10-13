@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torta Red Velvet",
+    "descripcion": "Torta Red Velvet artesanal.",
+    "precio": null,
+    "imagen": "/images/red-velvet.jpg",
+    "categoria": "tortas"
+  },
+  {
+    "id": 2,
+    "nombre": "Torta Matilda",
+    "descripcion": "Torta de chocolate Matilda.",
+    "precio": null,
+    "imagen": "/images/matilda.jpg",
+    "categoria": "tortas"
+  },
+  {
+    "id": 3,
+    "nombre": "Torta Brownie",
+    "descripcion": "Torta brownie artesanal.",
+    "precio": null,
+    "imagen": "/images/brownie.jpg",
+    "categoria": "tortas"
+  },
+  {
+    "id": 4,
+    "nombre": "Torta Tres Leches",
+    "descripcion": "Torta tres leches artesanal.",
+    "precio": null,
+    "imagen": "/images/tres-leches.jpg",
+    "categoria": "tortas"
+  },
+  {
+    "id": 5,
+    "nombre": "Torta Carrot Cake",
+    "descripcion": "Torta de zanahoria artesanal.",
+    "precio": null,
+    "imagen": "/images/carrot-cake.jpg",
+    "categoria": "tortas"
+  },
+  {
+    "id": 6,
+    "nombre": "Budín de Chocolate",
+    "descripcion": "Budín artesanal de chocolate.",
+    "precio": null,
+    "imagen": "/images/budin-chocolate.jpg",
+    "categoria": "budines"
+  },
+  {
+    "id": 7,
+    "nombre": "Budín de Limón",
+    "descripcion": "Budín artesanal de limón.",
+    "precio": null,
+    "imagen": "/images/budin-limon.jpg",
+    "categoria": "budines"
+  },
+  {
+    "id": 8,
+    "nombre": "Budín de Naranja",
+    "descripcion": "Budín artesanal de naranja.",
+    "precio": null,
+    "imagen": "/images/budin-naranja.jpg",
+    "categoria": "budines"
+  },
+  {
+    "id": 9,
+    "nombre": "Budín Marmoleado",
+    "descripcion": "Budín marmoleado artesanal.",
+    "precio": null,
+    "imagen": "/images/budin-marmoleado.jpg",
+    "categoria": "budines"
+  },
+  {
+    "id": 10,
+    "nombre": "Budín Carrot Cake",
+    "descripcion": "Budín artesanal de zanahoria.",
+    "precio": null,
+    "imagen": "/images/budin-carrot.jpg",
+    "categoria": "budines"
+  },
+  {
+    "id": 11,
+    "nombre": "Torta de Piña",
+    "descripcion": "Torta de piña artesanal.",
+    "precio": null,
+    "imagen": "/images/torta-pina.jpg",
+    "categoria": "especiales"
+  },
+  {
+    "id": 12,
+    "nombre": "Red Velvet Especial",
+    "descripcion": "Presentación especial de Red Velvet.",
+    "precio": null,
+    "imagen": "/images/red-velvet-especial-virgo.jpg",
+    "categoria": "especiales"
+  }
+]

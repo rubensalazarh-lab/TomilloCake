@@ -1,0 +1,139 @@
+.navbar {
+  position: relative;
+  width: 100%;
+  background-color: #476b45;
+  box-sizing: border-box;
+}
+
+.navbar-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+}
+
+.menu-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 0.3s ease;
+}
+
+.menu-boton:hover {
+  color: #f4d8aa;
+}
+
+.menu-boton:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+/* Menú original, con desplegable compacto */
+
+.menu-desplegable {
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  z-index: 20;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  width: 190px;
+  padding: 10px;
+
+  background-color: #476b45;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.menu-desplegable a {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.menu-desplegable a:hover {
+  background-color: #354b35;
+  color: #f4d8aa;
+}
+
+.menu-desplegable a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Carrito */
+
+.cart-widget {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.cart-widget:hover {
+  color: #f4d8aa;
+  transform: translateY(-2px);
+}
+
+.cart-widget:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.cart-contador {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 5px;
+
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  background-color: #f4d8aa;
+  color: #354b35;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Celulares */
+
+@media (max-width: 480px) {
+  .navbar-superior {
+    padding: 12px 15px;
+  }
+
+  .menu-desplegable {
+    left: 15px;
+    width: 170px;
+  }
+}

@@ -1,0 +1,112 @@
+
+.detalle-producto {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.detalle-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  background-color: #fffaf5;
+  border: 1px solid #e4ddcf;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.detalle-imagen {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.detalle-informacion h2 {
+  color: #476b45;
+  margin-bottom: 20px;
+}
+
+.detalle-informacion p {
+  line-height: 1.7;
+}
+
+.detalle-precio {
+  color: #7d5c42;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+/* Controles de cantidad */
+
+.selector-cantidad {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0 8px;
+}
+
+.selector-cantidad button {
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  background-color: #476b45;
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selector-cantidad button:hover:not(:disabled) {
+  background-color: #354b35;
+}
+
+.selector-cantidad button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.selector-cantidad span {
+  min-width: 25px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cantidad-descripcion {
+  margin-bottom: 25px;
+  color: #7d5c42;
+  font-size: 14px;
+}
+
+/* Regresar al catálogo */
+
+.detalle-volver {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #476b45;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.detalle-volver:hover {
+  background-color: #354b35;
+}
+
+/* Dispositivos móviles */
+
+@media (max-width: 768px) {
+  .detalle-contenido {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .detalle-imagen {
+    height: 300px;
+  }
+}
